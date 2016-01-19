@@ -1,0 +1,353 @@
+# Copyright (C) 2014 Pocket News Generator
+# This file is distributed under the same license as the Pocket News Generator package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Pocket News Generator 0.1.2\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/pocket-news-generator\n"
+"POT-Creation-Date: 2014-01-18 13:16:41+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2014-01-18 23:13+0900\n"
+"Last-Translator: Daisuke Maruyama <marubon@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: Poedit 1.6.3\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: ja\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: pocket-news-generator.php:105
+msgid "Current Parameter"
+msgstr "必須パラメータの現行設定値"
+
+#: pocket-news-generator.php:106
+msgid "The following describes registered parameters."
+msgstr "現在設定されているパラメータは、以下の通りです。"
+
+#: pocket-news-generator.php:110
+msgid "Name"
+msgstr "パラメータ名"
+
+#: pocket-news-generator.php:111
+msgid "Value"
+msgstr "設定値"
+
+#: pocket-news-generator.php:116 pocket-news-generator.php:134
+msgid "Consumer Key"
+msgstr "Consumer Key"
+
+#: pocket-news-generator.php:119 pocket-news-generator.php:138
+msgid "Access Token"
+msgstr "Access Token"
+
+#: pocket-news-generator.php:122 pocket-news-generator.php:142
+msgid "HTML Format"
+msgstr "HTMLフォーマット"
+
+#: pocket-news-generator.php:129
+msgid "Register New Parameter"
+msgstr "必須パラメータの登録"
+
+#: pocket-news-generator.php:130
+msgid "You can register or modify required parameters at the following form."
+msgstr "以下のフォームで必須パラメータの登録と編集（再登録）ができます。"
+
+#: pocket-news-generator.php:147
+msgid "Register"
+msgstr "登録"
+
+#: pocket-news-generator.php:151
+msgid ""
+"The parameter \"HTML Format\" indicates format of generated HTML, and the "
+"following reserved keywords are utilized to refer to retrieved Pocket data."
+msgstr ""
+"HTMLフォーマットは、生成されるHTMLのフォーマットになります。以下の予約語を用"
+"いてPocketから取得したデータを参照できます。"
+
+#: pocket-news-generator.php:155
+msgid "Reserved Keyword"
+msgstr "予約語"
+
+#: pocket-news-generator.php:156
+msgid "Description"
+msgstr "説明"
+
+#: pocket-news-generator.php:161
+msgid "Title of bookmarked item"
+msgstr "ブックマークされたアイテムのタイトル"
+
+#: pocket-news-generator.php:164
+msgid "URL of bookmarked item"
+msgstr "ブックマークされたアイテムのURL"
+
+#: pocket-news-generator.php:167
+msgid "Excerpt from bookmarked item"
+msgstr "ブックマークされたアイテムの抜粋"
+
+#: pocket-news-generator.php:170
+msgid "Web site name giving bookmarked item"
+msgstr "ブックマークされたアイテムの提供元サイト名"
+
+#: pocket-news-generator.php:173
+msgid "Web site URL giving bookmarked item"
+msgstr "ブックマークされたアイテム提供元サイトのURL"
+
+#: pocket-news-generator.php:178
+msgid "Format Sample"
+msgstr "HTMLフォーマットのサンプル"
+
+#: pocket-news-generator.php:251
+msgid "Get Consumer Key and Access Token"
+msgstr "Consumer KeyとAccess Tokenの取得"
+
+#: pocket-news-generator.php:252
+msgid ""
+"You need to obtain your cusumer key and access token according to the guide "
+"below."
+msgstr ""
+"以下のガイドに従ってConsumer KeyとAccess Tokenを取得する必要があります。"
+
+#: pocket-news-generator.php:254
+msgid "Step 1. Obtain a platform consumer key"
+msgstr "ステップ１．Consumer Keyを取得します。"
+
+#: pocket-news-generator.php:255
+msgid "You need to publish your cusumer key from the following site."
+msgstr "下記リンクよりPocketのサイトに移動し、Consumer Keyを発行して下さい。"
+
+#: pocket-news-generator.php:257
+msgid "Step 2. Obtain a request token"
+msgstr "ステップ２．Request Tokenを取得します。"
+
+#: pocket-news-generator.php:258
+msgid ""
+"Input the obtained cosumer key and push the button below to get a request "
+"token."
+msgstr "ステップ１で発行したConsumer Keyを入力し、以下のボタンを押して下さい。"
+
+#: pocket-news-generator.php:266
+msgid "Get Request Code"
+msgstr "Request Tokenの取得"
+
+#: pocket-news-generator.php:272
+msgid "INFO: Request token retrieval succeeded."
+msgstr "INFO: Request Tokenの取得に成功しました。"
+
+#: pocket-news-generator.php:274
+msgid "ERROR: Request token retrieval failed."
+msgstr "ERROR: Request Tokenの取得に失敗しました。"
+
+#: pocket-news-generator.php:278
+msgid "Step 3. Authenticate your request token in Pocket"
+msgstr "ステップ３．Pocket上でRequest Tokenの認証を行います。"
+
+#: pocket-news-generator.php:279
+msgid ""
+"After the above Step 2, push the following button whitch authorizes your "
+"application's request token."
+msgstr ""
+"ステップ２の完了後、Request Tokenを認証するため以下のボタンを押して下さい。"
+
+#: pocket-news-generator.php:284
+msgid "Authorize Request Token"
+msgstr "Request Tokenの認証"
+
+#: pocket-news-generator.php:290
+msgid "INFO: Authentication of request token succeeded."
+msgstr "INFO: Request Tokenの認証が成功しました。"
+
+#: pocket-news-generator.php:292
+msgid "ERROR: Authentication of request token failed."
+msgstr "ERROR: Request Tokenの認証が失敗しました。"
+
+#: pocket-news-generator.php:296
+msgid "Step 4. Convert a request token into a Pocket access token"
+msgstr "ステップ４．Request TokenからAccess Tokenを取得します。"
+
+#: pocket-news-generator.php:297
+msgid ""
+"After the above Step 3, push the following button in order to convert the "
+"authenticated request token into a Pocket access token."
+msgstr ""
+"ステップ３の完了後、認証されたRequest TokenをAccess Tokenに変換するため以下の"
+"ボタンを押して下さい。"
+
+#: pocket-news-generator.php:301
+msgid "Get Access Token"
+msgstr "Access Tokenの取得"
+
+#: pocket-news-generator.php:307
+msgid "INFO: Conversion from request token to access token succeeded."
+msgstr "INFO: Request TokenからAccess Tokenへの変換が成功しました。"
+
+#: pocket-news-generator.php:309
+msgid "ERROR: Conversion from request token to access token failed."
+msgstr "ERROR: Request ToeknからAccess Tokenへの変換が失敗しました。"
+
+#: pocket-news-generator.php:313
+msgid "Step 5. Register the consumer key and access token below\"."
+msgstr "ステップ５．Consumer KeyとAccess Tokenを当プラグインに登録します。"
+
+#: pocket-news-generator.php:314
+msgid ""
+"After the above Step 4, register the following parameters at the section "
+"titled \"Register New Parameter."
+msgstr ""
+"以下に表示されているConsumer KeyとAccess Tokenを「必須パラメータの登録」セク"
+"ションで登録して下さい。"
+
+#: pocket-news-generator.php:329
+msgid "Retrieve Items in Pocket and Generate HTML Code"
+msgstr "Pocketのデータ取得とHTMLの生成"
+
+#: pocket-news-generator.php:330
+msgid ""
+"Specify search condition for Pocket data retrieval and push the button below."
+msgstr ""
+"Pocketに保存されたデータの検索条件を指定し、以下のボタンを押して下さい。"
+
+#: pocket-news-generator.php:334
+msgid "State"
+msgstr "状態"
+
+#: pocket-news-generator.php:336
+msgid "all (both unread and archived items)"
+msgstr "全て（未読とアーカイブ済みアイテム）"
+
+#: pocket-news-generator.php:337
+msgid "only unread items"
+msgstr "未読アイテムのみ"
+
+#: pocket-news-generator.php:338
+msgid "only archived items"
+msgstr "アーカイブ済みアイテムのみ"
+
+#: pocket-news-generator.php:342
+msgid "Favorite"
+msgstr "お気に入り"
+
+#: pocket-news-generator.php:344
+msgid "all (both un-favorited and favorited items)"
+msgstr "全て（お気に入り登録有無関係なく全て）"
+
+#: pocket-news-generator.php:345
+msgid "only un-favorited items"
+msgstr "お気に入り未登録アイテムのみ"
+
+#: pocket-news-generator.php:346
+msgid "only favorited items"
+msgstr "お気に入り登録アイテムのみ"
+
+#: pocket-news-generator.php:350
+msgid "Tag"
+msgstr "タグによる検索"
+
+#: pocket-news-generator.php:354
+msgid "Content Type"
+msgstr "コンテンツの種類"
+
+#: pocket-news-generator.php:356
+msgid "all"
+msgstr "全て"
+
+#: pocket-news-generator.php:357
+msgid "only articles"
+msgstr "記事のみ"
+
+#: pocket-news-generator.php:358
+msgid "only videos or articles with embedded videos"
+msgstr "動画または動画が埋め込まれた記事のみ"
+
+#: pocket-news-generator.php:359
+msgid "only images"
+msgstr "画像のみ"
+
+#: pocket-news-generator.php:363
+msgid "Sort"
+msgstr "ソート順序"
+
+#: pocket-news-generator.php:365
+msgid "items in order of newest to oldest"
+msgstr "アイテムの新しい順"
+
+#: pocket-news-generator.php:366
+msgid "items in order of oldest to newest"
+msgstr "アイテムの古い順"
+
+#: pocket-news-generator.php:367
+msgid "items in order of title alphabetically"
+msgstr "タイトルのアルファベット順"
+
+#: pocket-news-generator.php:368
+msgid "items in order of URL alphabetically"
+msgstr "URLのアルファベット順"
+
+#: pocket-news-generator.php:372
+msgid "Search"
+msgstr "タイトルまたはURLによる検索"
+
+#: pocket-news-generator.php:376
+msgid "Domain"
+msgstr "ドメインによる検索"
+
+#: pocket-news-generator.php:380
+msgid "Since (YYYY-MM-DD HH24:MM)"
+msgstr ""
+"タイムスタンプによる検索（指定日時以降のデータ取得）（フォーマット: YYYY-MM-"
+"DD HH24:MM）"
+
+#: pocket-news-generator.php:384
+msgid "Count"
+msgstr "取得件数"
+
+#: pocket-news-generator.php:388
+msgid "Offset"
+msgstr "オフセット（検索結果から件数をカウントしはじめる位置）"
+
+#: pocket-news-generator.php:393
+msgid "Generate"
+msgstr "Pocketデータ検索とHTML生成"
+
+#: pocket-news-generator.php:499
+msgid "Generated HTML Code"
+msgstr "生成されたHTML"
+
+#: pocket-news-generator.php:500
+msgid "Generated HTML code is as follows. Copy and paste it into your post."
+msgstr "生成されたHTMLは以下の通りです。コピーし、記事に貼り付けて下さい。"
+
+#: pocket-news-generator.php:502
+msgid "HTML Code"
+msgstr "HTML"
+
+#: pocket-news-generator.php:607
+msgid "INFO: Pocket data matching your specified condition was not found."
+msgstr "INFO: 指定された条件に該当するデータは見つかりませんでした。"
+
+#: pocket-news-generator.php:615
+msgid "ERROR: Pocket data retrieval failed."
+msgstr "ERROR: Pocketのデータ取得に失敗しました。"
+
+#. Plugin Name of the plugin/theme
+msgid "Pocket News Generator"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://wordpress.org/plugins/pocket-news-generator/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"This plugin retrieves your Pocket data based on specified condition and "
+"generates its HTML code according to specified format automatically. This "
+"makes it possible to create an entry which introduces bookmarked articles "
+"efficiently."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Daisuke Maruyama"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://marubon.info/"
+msgstr ""

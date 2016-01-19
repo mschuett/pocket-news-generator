@@ -3,73 +3,24 @@
 
 .pkt-nws-gnrtr .text, .pkt-nws-gnrtr textarea, .pkt-nws-gnrtr .dropdown{
     border:1px solid #777;
-    padding: 5px;
-    color: #999;
+    padding: 3px;
+    color: #555;
     background: #fff;
-    border-radius: 5px;
+    border-radius: 3px;
      
     /* Webkit */
-    background: -webkit-gradient(
-        linear,
-        left top,
-        left bottom,
-        from(#eee),
-        to(#fff)
-        );
-     
-    -webkit-border-radius: 5px;
+    -webkit-border-radius: 3px;
     -webkit-box-shadow: 1px 1px 1px #fff;
      
-    /* Firefox */
-    background: -moz-linear-gradient(
-        top,
-        #eee,
-        #fff
-        );
-     
-    -moz-border-radius: 5px;
+    /* Firefox */ 
+    -moz-border-radius: 3px;
     -moz-box-shadow: 1px 1px 1px #fff;
      
     /* IE */
-    filter:progid:DXImageTransform.Microsoft.gradient
-        (startColorstr=#ffeeeeee,endColorstr=#ffffffff);
     zoom: 1;
+  	font-size: 13px;
 }
-
-.pkt-nws-gnrtr .submit{
-    border:1px solid #777;
-    padding: 4px 10px;
-    color: #fff;
-    cursor: pointer;
-    background: #428ec9;
-    border-radius: 5px;
-     
-/* Webkit */
-    background: -webkit-gradient(
-        linear,
-        left top,
-        left bottom,
-        from(#99c9e5),
-        to(#428ec9)
-        );
-    -webkit-border-radius: 5px;
-    -webkit-box-shadow: 1px 1px 1px #fff;
-         
-/* Firefox */
-    background: -moz-linear-gradient(
-        top,
-        #99c9e5,
-        #428ec9
-        );
-    -moz-border-radius: 5px;
-    -moz-box-shadow: 1px 1px 1px #fff;
-     
-/* IE */
-    filter:progid:DXImageTransform.Microsoft.gradient
-        (startColorstr=#ff99c9e5,endColorstr=#ff428ec9);
-    zoom: 1;
-}
-
+			
 .pkt-nws-gnrtr .red {
 	text-decoration: underline;
 	color: #ff5555;
@@ -80,4 +31,16 @@
 	text-decoration: underline;
 	color: #55bf55;
 	font-weight: bold;
+}
+
+.pkt-nws-gnrtr h3 {
+	border-left: 5px solid #555;
+	padding: 5px;
+}
+
+h2.pkt-nws-gnrtr {
+	font-weight: bold;
+	padding: 5px 5px 5px 8px;
+	border-left: 10px solid #555;
+	border-bottom: 1px solid #555;
 }

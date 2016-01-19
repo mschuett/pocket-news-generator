@@ -3,8 +3,8 @@ Contributors: marubon
 Donate link: 
 Tags: pocket, post, news
 Requires at least: 3.2
-Tested up to: 3.7
-Stable tag: 0.1.0
+Tested up to: 3.8
+Stable tag: 0.2.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -97,6 +97,19 @@ There are no questions.
 4. Sample of generated HTML code
 
 == Changelog ==
+
+= 0.2.0 =
+* Added language translation for Japanese
+* Improved accuracy of information retrieval for site name and its URL
+* Modified page design of plugin  
+
+= 0.1.2 =
+* Changed reference priority between content of og:description and excerpt contained in Pocket 
+
+= 0.1.1 =
+* Reserved words are added in order to refer to web site name and its URL giving bookmarked item.
+* Existing reserved words was modified. Old reserved words need to be replaced with new reserved words.
+* Bug fix: search condition "Since" does not work correctly.
 
 = 0.1.0 =
 * Initial working version.

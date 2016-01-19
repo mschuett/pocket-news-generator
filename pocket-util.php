@@ -53,6 +53,37 @@ class PocketUtil {
 		return plugins_url( ltrim( $path, '/' ), __FILE__ );
 	}
   
+  	function getBaseUrl($url){
+	  	$result = parse_url($url);
+	  	return $result['scheme']."://".$result['host'];
+	}
+  
+  	function getSiteName($url){
+	  
+	  	$base_url = self::getBaseUrl($url);
+	  
+	  	$html = file_get_contents ($base_url);
+	  
+	  	mb_detect_order("utf-8, euc-jp, sjis, jis, ascii");
+	  	$charset = strtolower(mb_detect_encoding($html));
+	  	$html = str_replace("\r", "", $html);
+	  	$html = str_replace("\n", "", $html);
+	  	
+	  	if ($charset <> "utf-8") {
+		  	$html = mb_convert_encoding($html, "UTF-8", $charset);
+		}
+	  	
+	  	$pattern = "<title>(.*)<\/title>";
+	  
+	  	if (preg_match ( "/".$pattern."/i", $html, $match )) {
+		  	$name = $match[1];
+		  	return $name;
+		} else {
+		  	return;
+		} 
+	  
+	}
+  
     public function getPath( $path = '' ) {
 		return dirname(__FILE__) . '/' . $path;
 	}
